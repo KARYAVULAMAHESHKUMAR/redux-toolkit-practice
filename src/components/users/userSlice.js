@@ -29,7 +29,7 @@ const userSlice =createSlice({
         addingUserstatus:'idel'
     },
     reducers:{
-
+ 
     },
     extraReducers: (builder)=>{
         builder
