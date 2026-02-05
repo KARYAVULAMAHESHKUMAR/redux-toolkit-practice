@@ -28,7 +28,7 @@ const [man,setMan] = useState('kumar');
                 <input type='text' placeholder='enater value' onChange={handleInputChange} />
                 <button type='button' onClick={handleBtnClick}>Add User</button>
             </form>
-            <h1>{props.data}</h1>
+            <h1>{props?.data}</h1> 
         </div>
     )
 }

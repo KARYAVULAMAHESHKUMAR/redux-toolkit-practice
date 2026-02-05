@@ -46,7 +46,7 @@ if(status === 'failed'){
     return (
        <div>
       <h2>Users List</h2>
-      <ul>
+      {/* <ul> */}
         {users?.map((user) => (
           <li key={user.id}>{`${user?.first_name}
           ${user?.last_name} ${user?.email} `}
@@ -55,7 +55,7 @@ if(status === 'failed'){
          
         ))}
     
-      </ul>
+      {/* </ul> */}
          
     </div>
  

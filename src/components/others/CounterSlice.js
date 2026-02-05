@@ -14,7 +14,6 @@ const CounterSlicce = createSlice ({
         decreament:(state)=>{
             if(state.count > 0){
             state.count = state.count -1
-
             }
 
         },

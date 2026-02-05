@@ -17,7 +17,7 @@ const CounterControlls =() =>{
     //     Dispatch(decreament())
     // }
 
-    const resetHandler =() =>{
+    const resetHandler =() =>{ 
 
         Dispatch(reset())
     }
