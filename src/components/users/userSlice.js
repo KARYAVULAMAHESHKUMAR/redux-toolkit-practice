@@ -4,7 +4,7 @@ import axios from "axios";//  axios is used  to call external apis in applicatio
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 
-//creating the asynchronuos Method fro callin an APi
+//creating the asynchronuos Method for calling an APi
 
 export const addUser = createAsyncThunk('user/addUser', async(user) => {//async 
 

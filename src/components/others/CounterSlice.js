@@ -20,12 +20,15 @@ const CounterSlicce = createSlice ({
 
         reset:(state) => {
             state.count = 0
+        },
+        changingValues:(state)=>{
+            state.count = state.count *5
         }
     }
 })
  
 
-export const {increament,decreament,reset} = CounterSlicce.actions;
+export const {increament,decreament,reset,changingValues} = CounterSlicce.actions;
 
 export default CounterSlicce.reducer;
 

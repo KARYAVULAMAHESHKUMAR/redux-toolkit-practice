@@ -7,6 +7,9 @@ import UsersList from './components/users/UsersList';
 import MyComponent from './components/MyComponent';
 import MySecondcomponent from './components/MySecondcomponent';
 import TestValues from './components/users/TestValues';
+import Redux from './components/forredux/redux1';  
+import Redux2 from './components/forredux/redux2';
+import AddTask from './ReactRef';
 function App() {
 
   const appTitle ="raju 123"
@@ -20,17 +23,20 @@ function App() {
 
   const Adduserdetailss =(value)=>{
     console.log("value from second comp",value)
-
+ 
   }
   return (
     <div className="App">
-       <CounterControlls/> 
+      <AddTask/>
+      <Redux/>
+       <Redux2/>
+       {/* <CounterControlls/> 
       <CounterDisplay/>
       <AddUserForm/>
       <UsersList/>
       <MyComponent data={appTitle} getData={Adduserdetailss} />
       <MySecondcomponent getData={Adduserdetails}/>
-      <TestValues getValues={ValuesKavali} />
+      <TestValues getValues={ValuesKavali} /> */}
 
     </div>
   );

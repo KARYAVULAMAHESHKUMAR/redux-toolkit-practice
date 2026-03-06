@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import {increament} from "./CounterSlice";
 import {decreament} from "./CounterSlice";
 import {reset} from "./CounterSlice";
-
+import { changingValues } from "./CounterSlice";
 const CounterControlls =() =>{
 
     const Dispatch =useDispatch();
@@ -28,6 +28,7 @@ const CounterControlls =() =>{
             <button onClick={incrementHandler}>Increment</button>
             <button onClick={() =>Dispatch(decreament())}>Decrease</button>
             <button onClick = {resetHandler}>Reset</button>
+            <button onClick={() =>Dispatch(changingValues())}>Change Values</button>
         </div>
     )
 }
