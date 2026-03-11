@@ -10,6 +10,7 @@ import TestValues from './components/users/TestValues';
 import Redux from './components/forredux/redux1';  
 import Redux2 from './components/forredux/redux2';
 import AddTask from './ReactRef';
+import UseMemos from './components/UseMemos';
 function App() {
 
   const appTitle ="raju 123"
@@ -27,6 +28,8 @@ function App() {
   }
   return (
     <div className="App">
+      <UseMemos/>
+      <br/>
       <AddTask/>
       <Redux/>
        <Redux2/>
